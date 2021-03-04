@@ -11,13 +11,12 @@ img {
 }
 
 .carousel {
-
   position: relative;
 }
 .carousel-item {
   display: none;
 }
-.carousel-item-visible {
+.carousel .carousel-item-visible {
   display: block;
 }
 
@@ -40,6 +39,7 @@ button {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 20px;
+  cursor: pointer;
 }
 
 #carousel-button-next {
@@ -48,4 +48,8 @@ button {
 
 #carousel-button-prev {
   margin-left: 20px;
+}
+
+.carousel-item-hidden {
+  display: none;
 }
